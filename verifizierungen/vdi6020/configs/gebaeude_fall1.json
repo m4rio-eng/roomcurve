@@ -1,0 +1,226 @@
+{
+ "projekt": {
+  "name": "VDI 6020 Testbeispiel 1",
+  "beschreibung": "Typraum S; konvektive innere Quelle 1000 W (6–18 Uhr), frei schwingend. Quellen: VDI 6007-1:2015-06 Tab. A.1.1–A.1.3; VDI 6020:2022-12 Tab. 3, Kap. 8, Anhang C1."
+ },
+ "zonen": [
+  {
+   "id": "RAUM",
+   "name": "Typraum S",
+   "volumen_m3": 52.5,
+   "nutzflaeche_m2": 17.5,
+   "nutzungsprofil": "vdi6020_fall1",
+   "kapazitaet_Wh_K": 17.5
+  }
+ ],
+ "bauteile": [
+  {
+   "id": "FB",
+   "name": "FB (VDI Typraum)",
+   "typ": "opak",
+   "flaeche_m2": 17.5,
+   "azimut_deg": 180,
+   "neigung_deg": 0,
+   "zone_innen": "RAUM",
+   "zone_aussen": "ADIABAT",
+   "schichten": [
+    {
+     "material": "PVC-Belag",
+     "dicke_m": 0.002,
+     "lambda_W_mK": 0.21,
+     "rho_kg_m3": 1300,
+     "c_J_kgK": 1470.0
+    },
+    {
+     "material": "Estrich",
+     "dicke_m": 0.045,
+     "lambda_W_mK": 1.4,
+     "rho_kg_m3": 2200,
+     "c_J_kgK": 1050.0
+    },
+    {
+     "material": "Steinwolle 060",
+     "dicke_m": 0.012,
+     "lambda_W_mK": 0.06,
+     "rho_kg_m3": 50,
+     "c_J_kgK": 840.0
+    },
+    {
+     "material": "Beton 2400",
+     "dicke_m": 0.15,
+     "lambda_W_mK": 2.035,
+     "rho_kg_m3": 2400,
+     "c_J_kgK": 1050.0
+    }
+   ],
+   "h_ci_W_m2K": 1.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 0.0,
+   "h_re_W_m2K": 0.0,
+   "alpha_sol": 0.0,
+   "massenklasse": "I",
+   "massenklasse_kappa_voll": "E"
+  },
+  {
+   "id": "DE",
+   "name": "DE (VDI Typraum)",
+   "typ": "opak",
+   "flaeche_m2": 17.5,
+   "azimut_deg": 180,
+   "neigung_deg": 0,
+   "zone_innen": "RAUM",
+   "zone_aussen": "ADIABAT",
+   "schichten": [
+    {
+     "material": "Beton 2400",
+     "dicke_m": 0.15,
+     "lambda_W_mK": 2.035,
+     "rho_kg_m3": 2400,
+     "c_J_kgK": 1050.0
+    },
+    {
+     "material": "Steinwolle 060",
+     "dicke_m": 0.012,
+     "lambda_W_mK": 0.06,
+     "rho_kg_m3": 50,
+     "c_J_kgK": 840.0
+    },
+    {
+     "material": "Estrich",
+     "dicke_m": 0.045,
+     "lambda_W_mK": 1.4,
+     "rho_kg_m3": 2200,
+     "c_J_kgK": 1050.0
+    },
+    {
+     "material": "PVC-Belag",
+     "dicke_m": 0.002,
+     "lambda_W_mK": 0.21,
+     "rho_kg_m3": 1300,
+     "c_J_kgK": 1470.0
+    }
+   ],
+   "h_ci_W_m2K": 1.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 0.0,
+   "h_re_W_m2K": 0.0,
+   "alpha_sol": 0.0,
+   "massenklasse": "I",
+   "massenklasse_kappa_voll": "I"
+  },
+  {
+   "id": "IT",
+   "name": "IT (VDI Typraum)",
+   "typ": "opak",
+   "flaeche_m2": 2.0,
+   "azimut_deg": 180,
+   "neigung_deg": 90,
+   "zone_innen": "RAUM",
+   "zone_aussen": "ADIABAT",
+   "schichten": [
+    {
+     "material": "Buche",
+     "dicke_m": 0.04,
+     "lambda_W_mK": 0.21,
+     "rho_kg_m3": 700,
+     "c_J_kgK": 2520.0
+    }
+   ],
+   "h_ci_W_m2K": 2.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 0.0,
+   "h_re_W_m2K": 0.0,
+   "alpha_sol": 0.0,
+   "massenklasse": "D",
+   "massenklasse_kappa_voll": "D"
+  },
+  {
+   "id": "IW",
+   "name": "IW (VDI Typraum)",
+   "typ": "opak",
+   "flaeche_m2": 38.5,
+   "azimut_deg": 180,
+   "neigung_deg": 90,
+   "zone_innen": "RAUM",
+   "zone_aussen": "ADIABAT",
+   "schichten": [
+    {
+     "material": "Hohlblocksteine",
+     "dicke_m": 0.24,
+     "lambda_W_mK": 0.56,
+     "rho_kg_m3": 1300,
+     "c_J_kgK": 1050.0
+    }
+   ],
+   "h_ci_W_m2K": 2.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 0.0,
+   "h_re_W_m2K": 0.0,
+   "alpha_sol": 0.0,
+   "massenklasse": "D",
+   "massenklasse_kappa_voll": "D"
+  },
+  {
+   "id": "AW",
+   "name": "AW (VDI Typraum)",
+   "typ": "opak",
+   "flaeche_m2": 3.5,
+   "azimut_deg": 180,
+   "neigung_deg": 90,
+   "zone_innen": "RAUM",
+   "zone_aussen": "AUL",
+   "schichten": [
+    {
+     "material": "Beton 2100",
+     "dicke_m": 0.24,
+     "lambda_W_mK": 2.035,
+     "rho_kg_m3": 2100,
+     "c_J_kgK": 920.0
+    },
+    {
+     "material": "Dämmung 047",
+     "dicke_m": 0.062,
+     "lambda_W_mK": 0.047,
+     "rho_kg_m3": 75,
+     "c_J_kgK": 840.0
+    },
+    {
+     "material": "Fassadenplatte",
+     "dicke_m": 0.025,
+     "lambda_W_mK": 0.45,
+     "rho_kg_m3": 1300,
+     "c_J_kgK": 1050.0
+    }
+   ],
+   "h_ci_W_m2K": 2.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 20.0,
+   "h_re_W_m2K": 0.0,
+   "alpha_sol": 0.0,
+   "massenklasse": "I",
+   "massenklasse_kappa_voll": "I"
+  },
+  {
+   "id": "AF",
+   "name": "Außenfenster",
+   "typ": "transparent",
+   "flaeche_m2": 7.0,
+   "azimut_deg": 180,
+   "neigung_deg": 90,
+   "zone_innen": "RAUM",
+   "zone_aussen": "AUL",
+   "U_W_m2K": 2.1444,
+   "U_vdi_original_W_m2K": 2.1,
+   "g_wert": 0.0,
+   "rahmenanteil": 0.0,
+   "h_ci_W_m2K": 2.7,
+   "h_ri_W_m2K": 5.0,
+   "h_ce_W_m2K": 20.0,
+   "h_re_W_m2K": 0.0
+  }
+ ],
+ "simulation": {
+  "f_HC_konv": 1.0,
+  "initialisierung_tage": 0
+ }
+}

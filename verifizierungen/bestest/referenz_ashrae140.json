@@ -1,0 +1,140 @@
+{
+ "meta": {
+  "groesse": "Jahres-Heiz-/Kühlbedarf-Bandbreiten (min/max) je Fall in kWh/a",
+  "quelle": "ASHRAE 140, Informativer Annex B8, Abschnitt B8.1 (Beispielergebnisse der acht Referenzprogramme; Ursprung IEA/NREL-BESTEST 1995)",
+  "ausgabe": "Annex-B8-Beispielergebnisse; Ausgaben 2011 und 2017 nachweislich wertgleich, damit deckungsgleich mit der von ISO 52016-1 datiert referenzierten Ausgabe 140-2014 (Originalausgabe nicht eingesehen — Einklammerung dokumentiert).",
+  "kreuzabgleich": "Ausgabe 2011 gegen 2017: 13 Fälle × 4 Bandgrenzen = 52 Werte wertgleich, keine Abweichung. Die Harness-Werte dieses Repositories stimmen mit beiden Quellen exakt überein (alle 12 verwendeten Fälle gegengerechnet).",
+  "quellen_urls": [
+   "https://download.autodesk.com/us/GBS/RESULTS5-2-v9-8-13-compare-v3.4.pdf",
+   "https://www.shareddocs.com/hvac/docs/1004/Public/00/E20S-STANDARD-140-HAP61-REPORT.PDF"
+  ],
+  "quellen_beschreibung": [
+   "Autodesk Green Building Studio, Testbericht zu ANSI/ASHRAE 140-2011 (Tab. B8-1/B8-2)",
+   "Carrier HAP 6.1, Testbericht zu ANSI/ASHRAE 140-2017 (Tab. 1)"
+  ],
+  "status": "gegen zwei voneinander unabhängige, frei zugängliche Quellen abgeglichen (siehe quellen_urls; alle 12 verwendeten Fälle)",
+  "pruefdatum": "2026-07-29"
+ },
+ "baender_kWh": {
+  "600": {
+   "Q_H": [
+    4296,
+    5709
+   ],
+   "Q_C": [
+    6137,
+    7964
+   ]
+  },
+  "610": {
+   "Q_H": [
+    4355,
+    5786
+   ],
+   "Q_C": [
+    3915,
+    5778
+   ]
+  },
+  "620": {
+   "Q_H": [
+    4613,
+    5944
+   ],
+   "Q_C": [
+    3417,
+    5004
+   ]
+  },
+  "630": {
+   "Q_H": [
+    5050,
+    6469
+   ],
+   "Q_C": [
+    2129,
+    3701
+   ]
+  },
+  "640": {
+   "Q_H": [
+    2751,
+    3803
+   ],
+   "Q_C": [
+    5952,
+    7811
+   ]
+  },
+  "650": {
+   "Q_H": [
+    0,
+    0
+   ],
+   "Q_C": [
+    4816,
+    6545
+   ]
+  },
+  "900": {
+   "Q_H": [
+    1170,
+    2041
+   ],
+   "Q_C": [
+    2132,
+    3415
+   ]
+  },
+  "910": {
+   "Q_H": [
+    1575,
+    2282
+   ],
+   "Q_C": [
+    821,
+    1872
+   ]
+  },
+  "920": {
+   "Q_H": [
+    3313,
+    4300
+   ],
+   "Q_C": [
+    1840,
+    3092
+   ]
+  },
+  "930": {
+   "Q_H": [
+    4143,
+    5335
+   ],
+   "Q_C": [
+    1039,
+    2238
+   ]
+  },
+  "940": {
+   "Q_H": [
+    793,
+    1411
+   ],
+   "Q_C": [
+    2079,
+    3241
+   ]
+  },
+  "950": {
+   "Q_H": [
+    0,
+    0
+   ],
+   "Q_C": [
+    387,
+    921
+   ]
+  }
+ }
+}

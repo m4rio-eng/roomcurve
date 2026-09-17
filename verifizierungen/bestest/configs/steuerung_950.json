@@ -1,0 +1,19 @@
+{
+  "simulation": {
+    "klimadatei": "../klimadaten/DRYCOLD_52016_verifizierung.csv",
+    "klimaformat": "CSV",
+    "initialisierung_tage": 31
+  },
+  "ausgabe": {
+    "stundenwerte": true,
+    "monatswerte": true,
+    "datei_csv": "ergebnisse_950.csv",
+    "datei_json": "ergebnisse_950.json"
+  },
+  "optionen": {
+    "f_sol_konv": 0.1,
+    "f_HC_konv": 1.0,
+    "delta_theta_sky_K": 11.0,
+    "klimazone": "zwischen"
+  }
+}

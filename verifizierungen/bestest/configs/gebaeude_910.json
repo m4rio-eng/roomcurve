@@ -1,0 +1,275 @@
+{
+  "projekt": {
+    "name": "BESTEST 910",
+    "beschreibung": "ASHRAE 140 Testfall 910"
+  },
+  "zonen": [
+    {
+      "id": "Z1",
+      "name": "Hauptraum",
+      "volumen_m3": 129.60000000000002,
+      "nutzflaeche_m2": 48.0,
+      "nutzungsprofil": "BESTEST",
+      "kapazitaet_Wh_K": 0
+    }
+  ],
+  "bauteile": [
+    {
+      "id": "AW_S",
+      "name": "Außenwand S",
+      "typ": "opak",
+      "flaeche_m2": 9.6,
+      "azimut_deg": 180,
+      "neigung_deg": 90,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "I",
+      "alpha_sol": 0.6,
+      "schichten": [
+        {
+          "material": "Betonblock",
+          "dicke_m": 0.1,
+          "lambda_W_mK": 0.51,
+          "rho_kg_m3": 1400,
+          "c_J_kgK": 1000
+        },
+        {
+          "material": "Schaumdaemmung",
+          "dicke_m": 0.0615,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 10,
+          "c_J_kgK": 1400
+        },
+        {
+          "material": "Holzverkleid.",
+          "dicke_m": 0.009,
+          "lambda_W_mK": 0.14,
+          "rho_kg_m3": 530,
+          "c_J_kgK": 900
+        }
+      ],
+      "h_ci_W_m2K": 2.5,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    },
+    {
+      "id": "FE_S",
+      "name": "Fenster S",
+      "typ": "transparent",
+      "flaeche_m2": 12.0,
+      "azimut_deg": 180,
+      "neigung_deg": 90,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "U_W_m2K": 2.984,
+      "g_wert": 0.789,
+      "rahmenanteil": 0.0,
+      "F_w": 0.9,
+      "h_ci_W_m2K": 2.5,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14,
+      "F_sh_obst": 0.75,
+      "ueberhang_tiefe_m": 1.0,
+      "ueberhang_abstand_m": 0.5,
+      "fenster_hoehe_m": 2.0
+    },
+    {
+      "id": "AW_N",
+      "name": "Außenwand N",
+      "typ": "opak",
+      "flaeche_m2": 21.6,
+      "azimut_deg": 0,
+      "neigung_deg": 90,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "I",
+      "alpha_sol": 0.6,
+      "schichten": [
+        {
+          "material": "Betonblock",
+          "dicke_m": 0.1,
+          "lambda_W_mK": 0.51,
+          "rho_kg_m3": 1400,
+          "c_J_kgK": 1000
+        },
+        {
+          "material": "Schaumdaemmung",
+          "dicke_m": 0.0615,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 10,
+          "c_J_kgK": 1400
+        },
+        {
+          "material": "Holzverkleid.",
+          "dicke_m": 0.009,
+          "lambda_W_mK": 0.14,
+          "rho_kg_m3": 530,
+          "c_J_kgK": 900
+        }
+      ],
+      "h_ci_W_m2K": 2.5,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    },
+    {
+      "id": "AW_O",
+      "name": "Außenwand O",
+      "typ": "opak",
+      "flaeche_m2": 16.2,
+      "azimut_deg": 90,
+      "neigung_deg": 90,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "I",
+      "alpha_sol": 0.6,
+      "schichten": [
+        {
+          "material": "Betonblock",
+          "dicke_m": 0.1,
+          "lambda_W_mK": 0.51,
+          "rho_kg_m3": 1400,
+          "c_J_kgK": 1000
+        },
+        {
+          "material": "Schaumdaemmung",
+          "dicke_m": 0.0615,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 10,
+          "c_J_kgK": 1400
+        },
+        {
+          "material": "Holzverkleid.",
+          "dicke_m": 0.009,
+          "lambda_W_mK": 0.14,
+          "rho_kg_m3": 530,
+          "c_J_kgK": 900
+        }
+      ],
+      "h_ci_W_m2K": 2.5,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    },
+    {
+      "id": "AW_W",
+      "name": "Außenwand W",
+      "typ": "opak",
+      "flaeche_m2": 16.2,
+      "azimut_deg": 270,
+      "neigung_deg": 90,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "I",
+      "alpha_sol": 0.6,
+      "schichten": [
+        {
+          "material": "Betonblock",
+          "dicke_m": 0.1,
+          "lambda_W_mK": 0.51,
+          "rho_kg_m3": 1400,
+          "c_J_kgK": 1000
+        },
+        {
+          "material": "Schaumdaemmung",
+          "dicke_m": 0.0615,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 10,
+          "c_J_kgK": 1400
+        },
+        {
+          "material": "Holzverkleid.",
+          "dicke_m": 0.009,
+          "lambda_W_mK": 0.14,
+          "rho_kg_m3": 530,
+          "c_J_kgK": 900
+        }
+      ],
+      "h_ci_W_m2K": 2.5,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    },
+    {
+      "id": "DA",
+      "name": "Dach",
+      "typ": "opak",
+      "flaeche_m2": 48.0,
+      "azimut_deg": 0,
+      "neigung_deg": 0,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "D",
+      "alpha_sol": 0.6,
+      "schichten": [
+        {
+          "material": "Gipsplatte",
+          "dicke_m": 0.01,
+          "lambda_W_mK": 0.16,
+          "rho_kg_m3": 950,
+          "c_J_kgK": 840
+        },
+        {
+          "material": "Fiberglas",
+          "dicke_m": 0.1118,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 12,
+          "c_J_kgK": 840
+        },
+        {
+          "material": "Dachterrasse",
+          "dicke_m": 0.019,
+          "lambda_W_mK": 0.14,
+          "rho_kg_m3": 530,
+          "c_J_kgK": 900
+        }
+      ],
+      "h_ci_W_m2K": 5.0,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    },
+    {
+      "id": "BO",
+      "name": "Boden",
+      "typ": "opak",
+      "flaeche_m2": 48.0,
+      "azimut_deg": 0,
+      "neigung_deg": 180,
+      "zone_innen": "Z1",
+      "zone_aussen": "AUL",
+      "massenklasse": "I",
+      "alpha_sol": 0.0,
+      "schichten": [
+        {
+          "material": "Betonplatte",
+          "dicke_m": 0.08,
+          "lambda_W_mK": 1.13,
+          "rho_kg_m3": 1400,
+          "c_J_kgK": 1000
+        },
+        {
+          "material": "Daemmung",
+          "dicke_m": 1.007,
+          "lambda_W_mK": 0.04,
+          "rho_kg_m3": 0,
+          "c_J_kgK": 0
+        }
+      ],
+      "h_ci_W_m2K": 0.7,
+      "h_ri_W_m2K": 5.13,
+      "h_ce_W_m2K": 20.0,
+      "h_re_W_m2K": 4.14
+    }
+  ],
+  "randbedingungen": {
+    "AUL": {
+      "typ": "aussenluft"
+    },
+    "ADIABAT": {
+      "typ": "adiabatisch"
+    }
+  }
+}

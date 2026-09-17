@@ -1,0 +1,8 @@
+ACHTUNG - Dieser Ordner wird automatisch erzeugt.
+
+Alle *.json-Dateien hier werden bei jedem Lauf von run_bestest.py neu generiert
+(Funktionen erstelle_gebaeude_json / erstelle_nutzung_json / erstelle_steuerung_json).
+
+Manuelle Aenderungen an den JSON-Dateien gehen beim naechsten Lauf VERLOREN.
+Dauerhafte Aenderungen gehoeren in run_bestest.py (die Generator-Funktionen),
+NICHT in diese Dateien.
